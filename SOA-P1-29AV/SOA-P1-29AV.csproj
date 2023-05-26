@@ -22,4 +22,12 @@
     <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\20200\source\repos\SOA-P1-29AV\SOA-P1-29AV\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\20200\source\repos\SOA-P1-29AV\SOA-P1-29AV\.editorconfig" />
+  </ItemGroup>
+
 </Project>

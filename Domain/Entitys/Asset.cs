@@ -8,29 +8,17 @@ using System.Threading.Tasks;
 
 namespace Domain.Entitys
 {
-    [Table("Persons")]
-    public class Person
+    [Table("Assets")]
+    public class Asset
     {
         [Key]
-        public int Id { get; set; }
-
+        public int Id {  get; set; }
         [StringLength(50)]
         [Required]
         public string Name { get; set; }
-
         [StringLength(50)]
+        public string Description { get; set; }
         [Required]
-        public string LastName { get; set; }
-
-        [StringLength(15)]
-        [Required]
-        public string CURP { get; set; }
-
-        [DataType(DataType.Date)]
-        public DateTime Birthday { get; set; }
-
-        [StringLength(25)]
-        [Required]
-        public string Email { get; set; }
+        public bool Status { get; set; }
     }
 }
